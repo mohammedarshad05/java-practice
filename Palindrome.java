@@ -5,16 +5,13 @@ public class Palindrome {
     }
 
     public static void palindrome(int n) {
-        int remainder = n % 2;
         int palindrome = 0;
-        for (int i = 1; i < n; i++) {
+        int remainder;
+        while (n > 0) {
+            remainder = n % 10;
             palindrome = palindrome * 10 + remainder;
-            if (remainder != 0) {
-                n = n / 10;
-            }
-
+            n = n / 10;
         }
-
+        System.out.println("plaindrome = " + palindrome);
     }
-
 }
