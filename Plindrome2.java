@@ -3,13 +3,13 @@
 
 public class Plindrome2 {
     public static void main(String[] args) {
-        int number = 131;
-        int reversedNumber = reverse(number);
+        int n = 131;
+        int reversedn = reverse(n);
 
-        if (number == reversedNumber) {
-            System.out.println(number + " is a palindrome.");
+        if (n == reversedn) {
+            System.out.println(n + " is a palindrome.");
         } else {
-            System.out.println(number + " is not a palindrome.");
+            System.out.println(n + " is not a palindrome.");
         }
     }
 
