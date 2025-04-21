@@ -12,9 +12,8 @@ public class Ternary {
         System.out.print("Enter your Age: ");
         int age = scanner.nextInt();
 
-
         String result = (age >= 18) ? " eligible to vote" : "Not eligible";
-        System.out.println( name + ", you are" + result);
+        System.out.println(name + ", you are" + result);
     }
-    
+
 }
