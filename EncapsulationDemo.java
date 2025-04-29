@@ -1,7 +1,7 @@
 public class EncapsulationDemo {
     public static void main(String[] args) {
         Person person1 = new Person();
-        person1.setName("arshaaaad 4");
+        person1.setName("arshaaaad sayed");
         person1.setAge(24);
         person1.displayInfo();
 
@@ -27,14 +27,13 @@ class Person {
         return this.name;
     }
 
-   void setName(String n) {
-    if (n.matches("[A-Za-z]+( [A-Za-z]+)*")) { 
-        name = n;
-    } else {
-        System.out.println("Name cannot contain numbers or special characters.");
-        return;
-    }
-
+    void setName(String n) {
+        if (n.matches("[A-Za-z]+([ A-Za-z]+)*")) {
+            name = n;
+        } else {
+            System.out.println("Name cannot contain numbers or special characters.");
+            return;
+        }
 
         this.name = n;
 
