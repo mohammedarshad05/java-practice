@@ -1,6 +1,6 @@
 public class CarDemo {
     public static void main(String[] args) {
-        Car Car1 = new Car("toyota corolla", 20220, "red", 50);
+        FinalCarAssignment Car1 = new FinalCarAssignment("toyota corolla", 20220, "red", 50);
 
         Car1.display();
         System.out.println(" after acceleration");
