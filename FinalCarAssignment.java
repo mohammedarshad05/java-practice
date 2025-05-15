@@ -9,12 +9,9 @@ public class FinalCarAssignment {
 class Car {
     public final void setSpeed(int speed) {
         final int MAX_SPEED = 200;
-        int currentSpeed;
         System.out.println("Speed of the car is: " + speed);
         if (speed > MAX_SPEED) {
-            currentSpeed = MAX_SPEED;
         } else {
-            currentSpeed = speed;
         }
     
     }
